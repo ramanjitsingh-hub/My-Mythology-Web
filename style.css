@@ -11,17 +11,53 @@
     list-style-type: none;
     text-align: center;
     display: inline;
+    display: inline-block;
+    
 }
 
 #nav_bar li{
     display: inline;
     margin: 10px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+
 }
 
 #container1{
-    background-color: #f2f2f2;
-    margin-top: 30px;
-    margin: 50px;
-    
+    width: 50%;
+    border-radius: 15px;
+    background-color: aqua;
+    margin: 40 auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(255, 255, 255, 0.23);
 }
 
+#top_section{
+height: 75%;
+width : 100%;
+background-color: #12343e;
+position: absolute;
+top: 0;
+left:0;
+}
+
+#top_section_img{
+    height: 450px;
+    width : 300px;
+    position: relative;
+    left: 65%;
+    border-radius:10px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#top_section_question{
+   
+}
