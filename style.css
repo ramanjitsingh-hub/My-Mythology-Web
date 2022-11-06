@@ -190,7 +190,7 @@ left:0;
     letter-spacing: 2px;
     line-height: 1.5;
     z-index: 1;
-    margin-top:15px;
+    margin-top:20px;
 }
 
 .explore_card img{
@@ -202,8 +202,54 @@ left:0;
     border-color: yellow;
     border-style: solid;
     border-width: 3px;
-    transition: 0.5s;
+    transition: 0.1s;
     padding: 4px;
-    transform: scale(1);
+    transform: scale(1.1);
     
+}
+#last_section{
+    background-color:whitesmoke;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 2200px;
+    
+}
+
+#last_section{
+    background-color: #d8c7a9;
+    display: flex;
+}
+#about_us{
+    height: 400px;
+    width : 600px;
+    border-radius:10px;
+    float : right;
+    
+}
+
+#about_us h1{
+    color: #12343e;
+    font-size: 60px;
+    font-family: 'Shalimar', cursive;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left : 50px;
+
+}
+#about_us p {
+    color: #12343e;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 20px;
+
+}
+
+#Quick_links{
+    width: 100%;
+
 }
