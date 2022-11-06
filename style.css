@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 #main_heading{
     text-align: center;
     margin-top:30px;
@@ -12,6 +16,7 @@
     text-align: center;
     display: inline;
     display: inline-block;
+
     
 }
 
@@ -79,4 +84,92 @@ left:0;
 .mid_section{
     align-items: center;
     text-align: center;
+    position: absolute;
+    top: 700px;
+    height: 750px;
+    width: 100%;
+    background-color: #d8c7a9
+}
+#mid_section_title{
+    color: #12343e;
+    font-size: 60px;
+    font-family: 'Shalimar', cursive;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#spotlight_container img{
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+}
+#spotlight_container{
+    display:flex;
+    justify-content: center;
+}
+.spotlight_card{
+    width: 500px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #12343e;
+    background-clip: border-box;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    
+}
+.spotlight_card p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.spotlight_card h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Shalimar', cursive;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.spotlight_card:hover {
+    background-color: #caac78;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 6px 3px 5px 6px rgba(0,0,0,0.19);
+
+}
+#mid2_section{
+    position:absolute;
+    top: 1450px;
+    height: 750px;
+    width: 100%;
+    background-image : url(image/background_mid_section.png);
+    background-size: cover;
+    text-align: center;
+   
+
+}
+#mid2_section_explore{
+    color: white;
+    font-size: 60px;
+    font-family: 'Shalimar', cursive;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    z-index: 1;
+    
+}
+#mid2_section_ancient{
+    color: whitesmoke;
+    font-size: 70px;
+    font-family: 'Shalimar', cursive;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    z-index: 1;
+}
+#mid2_section_ancient:hover{
+    color: #12343e;
+    transition: 0.5s;
+    cursor: pointer;
 }
