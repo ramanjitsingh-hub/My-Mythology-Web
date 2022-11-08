@@ -205,51 +205,81 @@ left:0;
     transition: 0.1s;
     padding: 4px;
     transform: scale(1.1);
-    
 }
-#last_section{
-    background-color:whitesmoke;
-    height: 500px;
-    width: 100%;
+#last_Section{
     position: absolute;
     top: 2200px;
-    
-}
-
-#last_section{
-    background-color: #d8c7a9;
+    height: 600px;
+    width: 100%;
+    background-color: #12343e;
+    text-align: center;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-#about_us{
-    height: 400px;
-    width : 600px;
-    border-radius:10px;
-    float : right;
-    
-}
-
-#about_us h1{
-    color: #12343e;
-    font-size: 60px;
-    font-family: 'Shalimar', cursive;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left : 50px;
-
-}
-#about_us p {
-    color: #12343e;
+#last_Section h5{
+    color:grey;
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     letter-spacing: 2px;
-    line-height: 1.5;
-    margin-top: 20px;
-    margin-left: 70px;
-    margin-right: 20px;
-
+    margin-bottom:20px ;
+}
+#last_Section h2{
+    color: white;
+    font-size: 60px;
+    font-family: 'Shalimar', cursive;
+    letter-spacing: 2px;
 }
 
-#Quick_links{
-    width: 100%;
-
+#last_Section h2:hover{
+    color: #caac78;
+    transition: 0.5s;
+}
+#last_Section h5:hover{
+    color: #caac78;
+    transition: 0.5s;
+}
+#last_Section img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+#last_Section button{
+    height: 50px;
+    width: 150px;
+}
+#last_Section form{
+    height: 50px;
+    padding: 10px;
+}
+#email{
+    height: 50px;
+    width: 200px;
+    background-color:transparent;
+    border-color: beige;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+#email:hover{
+    border-color: #caac78;
+    transition: 0.5s;
+}
+#last_Section button:hover{
+    background-color: #caac78;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #12343e;
+}
+#last_Section img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#last_Section h1{
+    color: #caac78;
+    font-size: 60px;
+    font-family: 'Shalimar', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
