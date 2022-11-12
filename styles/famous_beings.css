@@ -1,0 +1,105 @@
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background: radial-gradient(#caac78, #12343e);
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid img{
+  display: block;
+  height: 150px;
+  width: 150px;
+  transform: rotate(-45deg);
+  
+  
+  
+}
+.grid {
+  flex: 0 0 auto;
+  perspective: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  grid-gap: 20px;
+  max-width: 480px;
+  transform: rotate(45deg);
+  
+}
+.grid div {
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  padding: 0px;
+  color: transparent;
+  box-shadow: 30px 30px 30px -20px rgba(0, 0, 0, 0.6);
+  border-radius: 2px;
+}
+.grid div:nth-child(odd) {
+  animation: 1000ms ease-in-out infinite alternate pulse;
+}
+.grid div:nth-child(even) {
+  animation: 1000ms 1000ms ease-in-out infinite alternate pulse;
+}
+
+@keyframes pulse {
+  to {
+    transform: translate3d(0px, 0px, -60px);
+    box-shadow: 15px 15px 20px -20px rgba(0, 0, 0, 0.8);
+    font-size: 50px;
+  }
+}
+#top_heading{
+  font-family: 'Shalimar', cursive;
+  font-size: 100px;
+  color: #caac78;
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  
+}
+
+.name_grid{
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 20px;
+  width: 100px;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  
+}
+.name_grid div{
+  background :transparent;
+  padding: 0px;
+  color: transparent;
+  box-shadow: none;
+  border-radius: 2px;
+  font-family: 'Shalimar', cursive;
+  font-size: 40px;
+  color: whitesmoke;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name_grid div:nth-child(odd) {
+  animation: 1000ms 1000ms ease-in-out infinite alternate pulse;
+}
+.name_grid div:nth-child(even) {
+  animation: 1000ms ease-in-out infinite alternate pulse;
+}
+
+#top_logo img{
+  position: absolute;
+  top : -7%;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+}
