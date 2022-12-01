@@ -1,0 +1,56 @@
+body{
+    background-color: #12343e;
+}
+.top_container{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    bottom: 40;
+    left: 0;
+    background-color: #12343e;
+}
+
+.top_container img{
+    height : 300px;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    border-radius: 10px;
+    
+}
+
+
+.top_container h1{
+    color: white;
+    font-family: 'Shalimar', cursive;
+    position: absolute;
+    top : 10%;
+    left: 20%;
+    font-size: 100px;
+}
+
+.para_div {
+    
+height: 300px;
+width: 400px;
+overflow: hidden;
+}
+.para_div p{
+    color: white;
+    font-family: comfortaa;
+    position: absolute;
+    top : 40%;
+    left: 5%;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+.picture_title{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Shalimar', cursive;
+    color:#caac78;
+    letter-spacing: 2px;
+}
+
+
