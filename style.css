@@ -267,10 +267,15 @@ left:0;
     border-width: 1px;
     border-radius: 10px;
 }
+
 #email:hover{
     border-color: #caac78;
     transition: 0.5s;
 }
+#last_Section button{
+    border-radius: 30px;
+}
+
 #last_Section button:hover{
     background-color: #caac78;
     transition: 0.5s;
@@ -342,6 +347,7 @@ left:0;
     transform: translatez(40px);
     box-shadow: 0px 0px 135px 1px rgba(45,255,196,0.54)
     
+    
 }
 .div1 { 
     grid-area: 1 / 1 / 2 / 2;
@@ -408,5 +414,22 @@ left:0;
 
 #paragraph{
 font-family: Playfair Display;
+}
+
+#learn_more_button button{
+    height: 50px;
+    width: 150px;
+    background-color: #caac78;
+    border-radius: 20px;
+    position: absolute;
+    left : 45%;
+    top :600px;
+}
+
+#learn_more_button button:hover{
+    background-color: #12343e;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #caac78;
 }
 

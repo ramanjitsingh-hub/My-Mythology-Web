@@ -1,0 +1,37 @@
+body{
+    background-color: #12343e;
+}
+#main_title{
+    color: #caac78;
+    font-size: 60px;
+    font-family: 'Shalimar', cursive;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#intro_para , .event_card p{
+    text-align: center;
+    margin: 50px;
+    color: whitesmoke;
+    font-family: playfair display;
+    font-size: 20px;
+    line-height: 1.5;
+    
+}
+.event_card , p{
+    text-align: center;
+    align-items: center;
+
+}
+.event_card h2{
+    color: #caac78;
+    font-size: 50px;
+    font-family: 'Shalimar', cursive;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: center;
+}
+.event_card img{
+    border-radius: 5px;
+}
