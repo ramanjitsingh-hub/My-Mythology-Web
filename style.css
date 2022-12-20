@@ -267,10 +267,15 @@ left:0;
     border-width: 1px;
     border-radius: 10px;
 }
+
 #email:hover{
     border-color: #caac78;
     transition: 0.5s;
 }
+#last_Section button{
+    border-radius: 30px;
+}
+
 #last_Section button:hover{
     background-color: #caac78;
     transition: 0.5s;
@@ -342,6 +347,7 @@ left:0;
     transform: translatez(40px);
     box-shadow: 0px 0px 135px 1px rgba(45,255,196,0.54)
     
+    
 }
 .div1 { 
     grid-area: 1 / 1 / 2 / 2;
@@ -374,7 +380,7 @@ left:0;
     font-size: 60px;
     letter-spacing: 2px;
     font-family: 'Shalimar', cursive;
-    color: #caac78;
+    color: #12343e;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -389,7 +395,41 @@ left:0;
     position: absolute;
     top: 300px;
     left: 50px;
+    background-color: wheat;
+    box-shadow: 6px 3px 5px 6px rgba(0,0,0,0.19); 
+    animation: 1000ms ease-in-out infinite alternate slide;
+    
 }
+
+
+@keyframes slide {
+    to{
+    transform: translate3d(0, 100px, 0);
+    box-shadow: 15px 15px 20px -20px rgba(0, 0, 0, 0.8);
+
+}
+
+}
+
+
 #paragraph{
 font-family: Playfair Display;
 }
+
+#learn_more_button button{
+    height: 50px;
+    width: 150px;
+    background-color: #caac78;
+    border-radius: 20px;
+    position: absolute;
+    left : 45%;
+    top :600px;
+}
+
+#learn_more_button button:hover{
+    background-color: #12343e;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #caac78;
+}
+

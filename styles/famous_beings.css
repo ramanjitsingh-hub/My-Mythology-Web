@@ -89,6 +89,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .name_grid div:nth-child(odd) {
   animation: 1000ms 1000ms ease-in-out infinite alternate pulse;
 }
